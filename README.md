@@ -11,10 +11,17 @@ brew install pfb
 
 ## Usage
 
-After installing, source pfb in any Bash script:
+Run pfb directly as a command:
 
 ```bash
-source "$(brew --prefix)/lib/pfb/pfb.sh"
+pfb info "Hello from pfb"
+pfb test
+```
+
+Or source it in any Bash script:
+
+```bash
+source "$(brew --prefix)/bin/pfb"
 ```
 
 ## Updating
